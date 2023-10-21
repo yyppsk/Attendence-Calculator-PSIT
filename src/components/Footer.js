@@ -5,7 +5,7 @@ export default function Footer() {
         Made with <span style={{ color: "red" }}>❤</span> by{" "}
         <a href="/">Pranjal Pratap Singh</a>
       </span>
-      <span>For Students of PSIT KANPUR</span>
+      <span>For Students of PSIT (unofficial) </span>
       <span>
         <i
           className="fa-brands fa-github fa-fade fa-xl"
