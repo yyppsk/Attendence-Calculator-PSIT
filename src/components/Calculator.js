@@ -24,7 +24,7 @@ export default function Calculator() {
     settotalPercentage(
       100 - (((absent - delegation) / Academic) * 100).toFixed(2)
     );
-    console.log(totalPercentage);
+    // console.log(totalPercentage);
   }
 
   function calculateMaxAbsences(e) {
