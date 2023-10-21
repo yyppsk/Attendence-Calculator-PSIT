@@ -188,7 +188,9 @@ export default function Calculator() {
               {percentageHigh
                 ? `Nearly ${Math.abs(
                     totalPossibleAbsents
-                  )} Absents Possible 🚀🦺`
+                  )} Absents Possible (${Math.ceil(
+                    totalPossibleAbsents / 8
+                  )} Days) 🚀🦺`
                 : `Nearly take ${Math.abs(
                     totalPossibleDelegations
                   )} Delegations for 90% 🦺`}
