@@ -18,17 +18,16 @@ export default function Header() {
             <i className="fa-solid fa-code-branch fa-fade fa-sm"></i> issues
           </span>
         </a>
-
-        <a href="https://www.hitwebcounter.com">
-          <img
-            src="https://hitwebcounter.com/counter/counter.php?page=9481729&style=0006&nbdigits=9&type=page&initCount=0"
-            title="Counter Widget"
-            alt="Visit counter For Websites"
-            border="0"
-            style={{ marginLeft: "1rem" }}
-          />
-        </a>
       </span>
+      <a href="https://www.hitwebcounter.com">
+        <img
+          src="https://hitwebcounter.com/counter/counter.php?page=9481729&style=0006&nbdigits=9&type=page&initCount=0"
+          title="Counter Widget"
+          alt="Visit counter For Websites"
+          border="0"
+          style={{ marginLeft: "1rem" }}
+        />
+      </a>
     </header>
   );
 }
