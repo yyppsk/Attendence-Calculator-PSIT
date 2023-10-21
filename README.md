@@ -2,6 +2,7 @@
 
 The **PSIT Kanpur Attendance Calculator** is a web application that helps students at PSIT Kanpur determine their attendance percentage and estimate the number of absences or delegations they can have while maintaining a minimum required attendance percentage of 90%.
 
+##  Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/296e469f-98bc-4ad8-99dc-3b0159188075/deploy-status)](https://app.netlify.com/sites/psitattendence/deploys)
 ## Table of Contents
 - [Introduction](#introduction)
 - [Usage](#usage)
