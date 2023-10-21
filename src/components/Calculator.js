@@ -100,7 +100,7 @@ export default function Calculator() {
           <form className="interface" onSubmit={handleSumbit}>
             <input
               type="text"
-              placeholder="Total Academic days"
+              placeholder="Total Academic Lectures"
               className="present"
               value={Academic}
               onChange={(e) => setAcademic(e.target.value)}
@@ -114,7 +114,7 @@ export default function Calculator() {
             />
             <input
               type="text"
-              placeholder="OA Delegation"
+              placeholder="OA Delegation Lectures"
               className="delegation"
               value={delegation}
               onChange={(e) => setDelegation(e.target.value)}
@@ -162,7 +162,7 @@ export default function Calculator() {
           </p>
           <input
             type="text"
-            placeholder="Future Total Academic days"
+            placeholder="Future Total Academic Lectures"
             className="present"
             value={futureTotalLectures}
             onChange={(e) => setFutureTotalLectures(Number(e.target.value))}
