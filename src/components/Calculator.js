@@ -92,7 +92,9 @@ export default function Calculator() {
         </div>
         <form className="interface" onSubmit={calculateMaxAbsences}>
           <p className="daysLeft-heading">
-            Calculate how many holidays you can take before fine.
+            <strong>
+              Calculate how many holidays you can take before fine.
+            </strong>
           </p>
           <input
             type="text"
