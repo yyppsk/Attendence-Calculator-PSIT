@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# PSIT Kanpur Attendance Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **PSIT Kanpur Attendance Calculator** is a web application that helps students at PSIT Kanpur determine their attendance percentage and estimate the number of absences or delegations they can have while maintaining a minimum required attendance percentage of 90%.
 
-## Available Scripts
+##  Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/296e469f-98bc-4ad8-99dc-3b0159188075/deploy-status)](https://app.netlify.com/sites/psitattendence/deploys)
+## Table of Contents
+- [Introduction](#introduction)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Issues and Feedback](#issues-and-feedback)
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+PSIT Kanpur Attendance Calculator is designed to assist students in monitoring their attendance percentage and plan their future attendance accordingly. It's based on the standard formula used at PSIT Kanpur.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application consists of two main functionalities:
+1. **Attendance Percentage Calculation:** You can input the following details:
+   - Total Academic Days
+   - Total Absent Days
+   - Total Delegations
+   - Click on the "Calculate" button to get your current attendance percentage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Estimate Allowable Absences/Delegations:** If your attendance percentage is below 90% or you want to plan for future absences, you can input the following details:
+   - Future Total Academic Days
+   - Future OA Delegation
+   - Click on the "Calculate" button to estimate the number of allowable absences or delegations to maintain a 90% attendance percentage.
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Attendance Percentage Calculation:**
+   - Enter the following details in the first section:
+     - Total Academic Days (your total academic classes till that day)
+     - Total Absent Days (your total absences till that day)
+     - Total Delegations (total delegations you have received till that day)
+   - Click on the "Calculate" button.
+   - Your current attendance percentage will be displayed.
 
-### `npm run build`
+2. **Estimate Allowable Absences/Delegations:**
+   - If your current attendance percentage is below 90%, or you want to plan for future absences:
+   - In the second section, enter the following details:
+     - Future Total Academic Days (academic classes in the future)
+     - Future OA Delegation (expected delegations in the future)
+   - Click on the "Calculate" button.
+   - The calculator will estimate the number of allowable absences or delegations you can have to maintain a 90% attendance percentage.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Here are the placeholders for screenshots that demonstrate how to use the PSIT Kanpur Attendance Calculator:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| **IPad View** | **Iphone-12 Pro** | **Macbook Pro** |
+|:---:|:---:|:---:|
+| ![Screenshot 1](https://raw.githubusercontent.com/yyppsk/Attendence-Calculator-PSIT/master/iPad-1697910111698.jpeg) | ![Screenshot 2](https://raw.githubusercontent.com/yyppsk/Attendence-Calculator-PSIT/master/iPhone%2012%20Pro-1697910102935.jpeg) | ![Screenshot 3](https://raw.githubusercontent.com/yyppsk/Attendence-Calculator-PSIT/master/MacBook%20Pro-1697910116179.jpeg) |
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Issues and Feedback
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We strive to provide a smooth and error-free experience. If you encounter any issues, have questions, or would like to provide feedback, please don't hesitate to open an issue on our [GitHub repository](https://github.com/your-username/your-repo).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your feedback is invaluable to us, and we appreciate your help in improving the PSIT Kanpur Attendance Calculator.
