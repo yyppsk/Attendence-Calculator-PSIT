@@ -9,7 +9,7 @@ export default function Header() {
         </sub>
       </div>
       <span className="documentation-container">
-        <a href="https://github.com/yyppsk/Attendence-Calculator-PSIT">
+        <a href="https://github.com/yyppsk/Attendence-Calculator-PSIT/wiki">
           <span className="documentation">Documentation</span>
         </a>
         <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
