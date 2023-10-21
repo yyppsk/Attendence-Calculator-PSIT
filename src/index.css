@@ -15,6 +15,23 @@ code {
 a {
   text-decoration: none;
 }
+.gitissue {
+  background-color: #8957e5;
+  border-radius: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 6px;
+  text-decoration: underline;
+  align-self: flex-end;
+  text-decoration: none;
+}
+.gitissue:hover {
+  background-color: #a07ce1;
+}
 .error {
   font-size: 1rem;
   text-align: center;
@@ -36,6 +53,19 @@ a {
   justify-content: center;
   flex-direction: column;
   color: #454545;
+}
+.documentation {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 6px;
+  text-decoration: underline;
+  color: #454545;
+  text-decoration: none;
+}
+.documentation:hover {
+  color: palevioletred;
+}
+.documentation-container {
+  align-self: flex-end;
 }
 .heading {
   font-size: 4rem;
@@ -122,6 +152,10 @@ button {
 }
 
 @media (max-width: 400px) {
+  .documentation-container {
+    margin-top: 2rem;
+    align-self: center;
+  }
   .heading {
     font-size: 1.6rem;
   }
@@ -164,6 +198,10 @@ button {
 
 /* Iphone 12pro */
 @media (max-width: 500px) {
+  .documentation-container {
+    margin-top: 2rem;
+    align-self: center;
+  }
   .heading {
     font-size: 1.6rem;
   }
@@ -204,5 +242,13 @@ button {
   .footer span {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+  .documentation-container {
+    margin-top: 1rem;
+    align-self: center;
   }
 }
