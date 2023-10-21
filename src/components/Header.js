@@ -19,14 +19,13 @@ export default function Header() {
           </span>
         </a>
 
-        <a href="https://www.hitwebcounter.com" target="_blank">
+        <a href="https://www.hitwebcounter.com">
           <img
             src="https://hitwebcounter.com/counter/counter.php?page=9481729&style=0006&nbdigits=9&type=page&initCount=0"
             title="Counter Widget"
-            Alt="Visit counter For Websites"
+            alt="Visit counter For Websites"
             border="0"
             style={{ marginLeft: "1rem" }}
-            alt="hit counter"
           />
         </a>
       </span>
