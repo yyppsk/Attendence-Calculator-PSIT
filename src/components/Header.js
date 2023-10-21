@@ -26,6 +26,7 @@ export default function Header() {
             Alt="Visit counter For Websites"
             border="0"
             style={{ marginLeft: "1rem" }}
+            alt="hit counter"
           />
         </a>
       </span>
