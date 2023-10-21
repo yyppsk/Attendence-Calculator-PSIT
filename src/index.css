@@ -15,6 +15,18 @@ code {
 a {
   text-decoration: none;
 }
+.error {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 0.4rem;
+  background-color: rgb(250, 61, 61);
+  border-radius: 1rem;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 50%;
+  font-weight: 600;
+  color: white;
+}
 .header {
   width: 100%;
   background-color: rgb(234, 211, 246);
