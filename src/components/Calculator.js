@@ -107,7 +107,7 @@ export default function Calculator() {
             />
             <input
               type="text"
-              placeholder="Absent days"
+              placeholder="Total Absent Lectures"
               className="absent"
               value={absent}
               onChange={(e) => setAbsent(e.target.value)}
