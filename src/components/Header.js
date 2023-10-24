@@ -26,7 +26,7 @@ export default function Header() {
             title="Counter Widget"
             alt="Visit counter For Websites"
             border="0"
-            style={{ marginBottom: "0.8rem" }}
+            style={{ marginTop: "1.2rem" }}
           />
         </a>
       </span>
